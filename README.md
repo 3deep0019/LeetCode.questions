@@ -10,7 +10,7 @@
 
 # 1. Array
 
-## 1.a. Move Zeros 
+## 1.a Move Zeros 
 https://leetcode.com/problems/move-zeroes/submissions/1519803526/
 
 ![Easy Badge](https://img.shields.io/badge/-Easy-brightgreen)
@@ -38,7 +38,7 @@ const moveZeroes = (nums) => {
 };
 ```
 
-## 1.b. Majority Element
+## 1.b Majority Element
 https://leetcode.com/problems/majority-element/submissions/1519804367/
 
 ![Easy Badge](https://img.shields.io/badge/-Easy-brightgreen)
@@ -66,7 +66,7 @@ const majorityElement = (nums) => {
 };
 ```
 
-## 1.c. Remove Duplicates from Sorted Array
+## 1.c Remove Duplicates from Sorted Array
 https://leetcode.com/problems/remove-duplicates-from-sorted-array/submissions/1518962336/
 
 ![Easy Badge](https://img.shields.io/badge/-Easy-brightgreen)
@@ -119,6 +119,40 @@ If all assertions pass, then your solution will be accepted.
 
 ```js script
 const removeDuplicates = (nums) => {
+    
+};
+```
+
+## 1.d Best Time to Buy and Sell Stock
+https://leetcode.com/problems/majority-element/submissions/1519804367/
+
+![Easy Badge](https://img.shields.io/badge/-Easy-brightgreen)
+![Array Badge](https://img.shields.io/badge/-Array-blue)
+
+**Problem**
+
+You are given an array `prices` where `prices[i]` is the price of a given stock on the `ith` day.
+
+You want to maximize your profit by choosing a single day to buy one stock and choosing a different day in the future to sell that stock.
+
+Return the maximum profit you can achieve from this transaction. If you cannot achieve any profit, return `0`.
+
+    Example 1:
+    Input: prices = [7,1,5,3,6,4]
+    Output: 5
+
+    Explanation: Buy on day 2 (price = 1) and sell on day 5 (price = 6), profit = 6-1 = 5.
+    Note that buying on day 2 and selling on day 1 is not allowed because you must buy before you sell.
+    
+    Example 2:
+    Input: prices = [7,6,4,3,1]
+    Output: 0
+    Explanation: In this case, no transactions are done and the max profit = 0.
+
+**Solution**
+
+```js script
+const maxProfit = (prices) => {
     
 };
 ```
@@ -191,6 +225,36 @@ Given a string `s`, return `true` if it is a palindrome, or `false` otherwise.
 
 ```js script
 const isPalindrome = (s) => {
+    
+};
+```
+
+## 2.c Longest Common Prefix
+https://leetcode.com/problems/valid-palindrome/submissions/1519810087/
+
+
+![Easy Badge](https://img.shields.io/badge/-Easy-brightgreen)
+![String Badge](https://img.shields.io/badge/-String-blue)
+
+**Problem**
+
+Write a function to find the longest common prefix string amongst an array of strings.
+
+If there is no common prefix, return an empty string `""`.
+
+    Example 1:
+    Input: strs = ["flower","flow","flight"]
+    Output: "fl"
+
+    Example 2:
+    Input: strs = ["dog","racecar","car"]
+    Output: ""
+    Explanation: There is no common prefix among the input strings.
+
+**Solution**
+
+```js script
+const longestCommonPrefix = (strs) => {
     
 };
 ```
